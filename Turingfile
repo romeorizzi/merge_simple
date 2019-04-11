@@ -1,0 +1,5 @@
+[problem]
+title = "Merge di due liste ordinate in una"
+
+[scoring]
+goals = ["correct", "linear_merge", "direct_access"]

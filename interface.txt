@@ -1,0 +1,22 @@
+procedure get_two_sorted_lists_and_store_their_merge(length_A, A[], length_B, B[]);
+
+function tell_element_in_pos(pos);
+
+
+main {
+    read length_A, length_B;
+    for i to length_A {
+       read A[i];
+    }
+    for i to length_B {
+       read B[i];
+    }
+    call get_two_sorted_lists_and_store_their_merge(length_A, A, length_B, B);
+    read length_C;
+    for i to length_C {
+       read pos;
+       call res = tell_element_in_pos(pos);
+       write res;
+    }  
+}    
+
